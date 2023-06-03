@@ -8,19 +8,12 @@ const data01 = [
     { name: 'Group F', value: 189 },
 ];
 
-const data02 = [
-    { name: 'Group A', value: 2400 },
-    { name: 'Group B', value: 4567 },
-    { name: 'Group C', value: 1398 },
-    { name: 'Group D', value: 9800 },
-    { name: 'Group E', value: 3908 },
-    { name: 'Group F', value: 4800 },
-];
+
 const Chart = () => {
 
     return (
         <div className="theme_component pt-5 w-full h-80">
-            <ResponsiveContainer width="100%" height="100%">
+            {/* <ResponsiveContainer width="88%" height="100%">
                 <PieChart width={400} height={400}>
                     <Pie
                         dataKey="value"
@@ -34,7 +27,7 @@ const Chart = () => {
                     />
                     <Tooltip />
                 </PieChart>
-            </ResponsiveContainer>
+            </ResponsiveContainer> */}
         </div>
     );
 };

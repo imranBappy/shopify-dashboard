@@ -27,12 +27,10 @@ const Header = ({ sidebar, showSidebar, blur, width }) => {
         useState(theme === 'dark' ? setTheme('lite') : setTheme('dark'))
     }
     const [open, setOpen] = useState(false);
-
-
     return (
-        <header style={{ width: `${width}px` }} className={`z-50 backdrop-blur-md right-0 top-0 fixed ${!blur && 'dark:bg-dark2' }  dark:border-b-[0.1px] dark:border-lite4 shadow-sm h-14 items-center px-2  flex flex-row justify-between ease-in duration-150  `}>
-            <div className="flex flex-wrap ">
-                <div onClick={showSidebar} className='icon_btn '>
+        <header className={` z-40   flex-grow flex-shrink w-full backdrop-blur-md right-0 top-0 fixed ${!blur && 'dark:bg-dark2'}  dark:border-b-[0.1px] dark:border-lite4 shadow-sm h-14 items-center px-2  flex flex-row justify-between  `}>
+            <div className="flex flex-wrap relative">
+                <div onClick={showSidebar} className={`icon_btn ease-in duration-150  -top-4 absolute ${sidebar ? 'left-[240px]' : 'left-[65px]'}`}>
                     <AiOutlineMenuFold />
                 </div>
             </div>
