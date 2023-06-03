@@ -1,8 +1,17 @@
-import './App.css'
+import { BrowserRouter } from "react-router-dom"
+import Dashboard from "./pages/Dashboard"
+import Layout from "./components/Layout/Layout"
+
 function App() {
+
+
   return (
     <>
-      Hello World
+      <BrowserRouter>
+        <Layout>
+          <Dashboard />
+        </Layout>
+      </BrowserRouter>
     </>
   )
 }

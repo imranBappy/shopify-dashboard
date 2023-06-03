@@ -1,0 +1,22 @@
+/* ::root{
+  --primary-color: rgb(22, 119, 255);
+  --dark-bd-primary:rgb(18, 18, 18);
+  --dark-text-primary:rgba(255, 255, 255, 0.87);
+} */
+
+.container{
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+/* dashboard_wrapper */
+.dashboard_wrapper{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+

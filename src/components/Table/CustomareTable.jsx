@@ -1,8 +1,7 @@
-import React from 'react';
 
 const CustomareTable = () => {
     return (
-        <div>
+        <div className='theme_component mt-5 pt-5 w-full h-80'>
             CustomareTable
         </div>
     );
