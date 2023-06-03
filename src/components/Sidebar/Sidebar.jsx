@@ -2,7 +2,7 @@ import NavLink from '../NavLink/NavLink'
 import logo from '../../assets/react.svg'
 const Sidebar = ({ sidebar }) => {
     return (
-        <div className={`dark:border-r-[0.1px] dark:border-lite4 dark:shadow-lite1  dark:bg-dark2 ease-in duration-150 shadow  ${sidebar ? 'w-60' : 'w-16'} min-h-screen `}>
+        <div className={`fixed dark:border-r-[0.1px] dark:border-lite4 dark:shadow-lite1  dark:bg-dark2 ease-in duration-150 shadow  ${sidebar ? 'w-60' : 'w-16'} min-h-screen `}>
             <div className={`mb-8 flex flex-col px-${sidebar ? '4' : '2'} mt-2 gap-2 ${sidebar ? ' items-center' : ' items-start'}`}>
                 <img className={sidebar ? 'w-14' : 'w-10'} src={logo} alt="" />
                 {

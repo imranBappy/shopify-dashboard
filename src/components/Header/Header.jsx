@@ -4,7 +4,7 @@ import HeaderProfile from './HeaderProfile';
 import { useEffect, useState } from 'react';
 import { BsThreeDotsVertical } from 'react-icons/bs'
 import HeaderProfileMenu from './HeaderProfileMenu';
-const Header = ({ sidebar, showSidebar }) => {
+const Header = ({ sidebar, showSidebar, blur, width }) => {
     const [theme, setTheme] = useState('dark')
     useEffect(() => {
         if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -30,7 +30,7 @@ const Header = ({ sidebar, showSidebar }) => {
 
 
     return (
-        <header className={`dark:bg-dark2 dark:border-b-[0.1px] dark:border-lite4 shadow-sm h-14 items-center px-2 w-full flex flex-row justify-between `}>
+        <header style={{ width: `${width}px` }} className={`z-50 backdrop-blur-md right-0 top-0 fixed ${!blur && 'dark:bg-dark2' }  dark:border-b-[0.1px] dark:border-lite4 shadow-sm h-14 items-center px-2  flex flex-row justify-between ease-in duration-150  `}>
             <div className="flex flex-wrap ">
                 <div onClick={showSidebar} className='icon_btn '>
                     <AiOutlineMenuFold />

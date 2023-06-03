@@ -1,4 +1,4 @@
-import { Bar, BarChart, ResponsiveContainer } from "recharts";
+import { Bar, BarChart, ResponsiveContainer, Tooltip } from "recharts";
 const data = [
     {
         name: 'Page A',
@@ -113,6 +113,8 @@ const Card = () => {
                 <ResponsiveContainer width="95%" height="100%">
                     <BarChart data={data}>
                         <Bar dataKey="uv" fill="#8884d8" />
+                        <Tooltip />
+
                     </BarChart>
                 </ResponsiveContainer>
             </div>
