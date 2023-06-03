@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* create icon btn componet */
+@layer components {
+  .icon_btn {
+    @apply text-lg hover:dark:bg-lite4 dark:bg-dark1 dark:text-dark4 bg-lite2 hover:bg-lite3 p-2 rounded cursor-pointer;
+  }
+  .theme_component {
+    @apply bg-white shadow shadow-lite4  dark:bg-dark2 rounded-sm;
+  }
+}
