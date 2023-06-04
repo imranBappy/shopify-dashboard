@@ -13,7 +13,7 @@ const Chart = () => {
 
     return (
         <div className="theme_component pt-5 w-full h-80">
-            {/* <ResponsiveContainer width="88%" height="100%">
+            <ResponsiveContainer width="88%" height="100%">
                 <PieChart width={400} height={400}>
                     <Pie
                         dataKey="value"
@@ -27,7 +27,7 @@ const Chart = () => {
                     />
                     <Tooltip />
                 </PieChart>
-            </ResponsiveContainer> */}
+            </ResponsiveContainer>
         </div>
     );
 };

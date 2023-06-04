@@ -11,7 +11,7 @@ const Layout = (props) => {
     total 445
     sidebar 63px
     page 320
-    */ 
+    */
     console.log(sidebar, width);
     const showSidebar = () => {
         if (sidebar) setWidth(window.innerWidth - 64);
@@ -33,11 +33,11 @@ const Layout = (props) => {
         <div className={`${styles.coninter} dark:bg-dark1 `}>
             <div className={styles.dashboard_wrapper}>
                 <Sidebar sidebar={sidebar} showSidebar={showSidebar} />
-                <div className={`overflow-x-hidden absolute right-0 ease-in duration-150`} style={{ maxWidth: `${width}px` }}>
+                <div className={`overflow-x-hidden w-full  absolute right-0 ease-in duration-150`} style={{ maxWidth: `${width}px` }}>
                     <div className='  w-full relative flex flex-col'>
                         <Header width={width} blur={blur} sidebar={sidebar} showSidebar={showSidebar} />
                         {/* theare will many content */}
-                        <div className="mt-14 px-6 py-5 bg-lite2 w-full h-full dark:bg-dark1 ">
+                        <div className="mt-14 px-6 py-5 bg-lite2 w-full  dark:bg-dark1 ">
                             {
                                 children
                             }
