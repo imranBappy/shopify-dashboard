@@ -106,7 +106,7 @@ const data = [
 const Card = () => {
 
     return (
-        <div className="theme_component pt-2 basis-[300px] flex-grow">
+        <div className="theme_component pt-2 basis-[250px] flex-grow">
             <p className=" text-black px-4 py-2 font-serif dark:text-lite3 text-sm">Total Users</p>
             <p className=" px-4 pb-4 font-semibold text-black dark:text-dark4 text-2xl">78,250</p>
             <div className=" w-full h-20 ">

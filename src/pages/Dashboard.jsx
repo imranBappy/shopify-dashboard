@@ -6,22 +6,22 @@ import CustomareTable from "../components/Table/CustomareTable";
 
 const Dashboard = () => {
     return (
-        <div className="w-full flex flex-col gap-5">
-            <div className="w-full flex flex-wrap gap-5">
-                <div className="flex-shrink flex-grow basis-[750px]">
-                    <div className="flex gap-6 flex-wrap justify-between">
+        <div className="w-full" >
+            <div className="w-full flex flex-grow flex-wrap gap-5 ">
+                <div className=" basis-[400px] flex-grow " >
+                    <div className=" flex gap-6 flex-wrap md:flex-nowrap justify-between">
                         <Card />
                         <Card />
                     </div>
                     <CustomareGraph />
-                </div>
-                <div className="flex-shrink flex-grow basis-[250px] ">
+                </div >
+                <div className="flex-shrink flex-grow  basis-[250px] ">
                     <Chart />
                     <InfoCard />
                 </div>
-            </div>
+            </div >
             <CustomareTable />
-        </div>
+        </div >
     );
 };
 

@@ -4,15 +4,8 @@
   --dark-text-primary:rgba(255, 255, 255, 0.87);
 } */
 
-.container {
-  width: 100%;
-  min-height: 100vh;
-  margin: 0 auto;
-}
-
 /* dashboard_wrapper */
 .dashboard_wrapper {
-  width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: row;

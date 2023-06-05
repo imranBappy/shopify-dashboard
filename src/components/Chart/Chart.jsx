@@ -12,9 +12,9 @@ const data01 = [
 const Chart = () => {
 
     return (
-        <div className="theme_component pt-5 w-full h-80">
-            <ResponsiveContainer width="88%" height="100%">
-                <PieChart width={400} height={400}>
+        <div className="theme_component pt-5 w-full h-80 flex items-center justify-around">
+            <ResponsiveContainer width="80%" height="100%">
+                <PieChart width={200} height={200}>
                     <Pie
                         dataKey="value"
                         isAnimationActive={false}
@@ -28,7 +28,7 @@ const Chart = () => {
                     <Tooltip />
                 </PieChart>
             </ResponsiveContainer>
-        </div>
+        </div >
     );
 };
 

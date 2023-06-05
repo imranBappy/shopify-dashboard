@@ -4,18 +4,19 @@ import HeaderProfile from './HeaderProfile';
 import { useEffect, useState } from 'react';
 import { BsThreeDotsVertical } from 'react-icons/bs'
 import HeaderProfileMenu from './HeaderProfileMenu';
-const Header = ({ sidebar, showSidebar, blur, width }) => {
+const Header = ({ sidebar, showSidebar, blur }) => {
     const [theme, setTheme] = useState('dark')
     useEffect(() => {
-        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        if (localStorage.getItem('theme') === 'dark')
             setTheme('dark')
-        } else {
+        else if ((!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches))
+            setTheme('dark')
+        else
             setTheme('lite')
-        }
     }, [])
 
     useEffect(() => {
-        localStorage.theme = theme;
+
         if (theme === 'dark') {
             document.documentElement.classList.add('dark')
         } else {
@@ -24,13 +25,19 @@ const Header = ({ sidebar, showSidebar, blur, width }) => {
     }, [theme])
 
     const handleTheme = () => {
-        useState(theme === 'dark' ? setTheme('lite') : setTheme('dark'))
+        if (theme === 'dark') {
+            localStorage.setItem('theme', 'lite');
+            setTheme('lite')
+        } else {
+            setTheme('dark')
+            localStorage.setItem('theme', 'dark');
+        }
     }
     const [open, setOpen] = useState(false);
     return (
         <header className={` z-40   flex-grow flex-shrink w-full backdrop-blur-md right-0 top-0 fixed ${!blur && 'dark:bg-dark2'}  dark:border-b-[0.1px] dark:border-lite4 shadow-sm h-14 items-center px-2  flex flex-row justify-between  `}>
             <div className="flex flex-wrap relative">
-                <div onClick={showSidebar} className={`icon_btn ease-in duration-150  -top-4 absolute ${sidebar ? 'left-[240px]' : 'left-[65px]'}`}>
+                <div onClick={showSidebar} className={`icon_btn ease-in duration-150  -top-4 absolute ${sidebar ? 'left-48 md:left-60' : 'left-[65px]'}`}>
                     <AiOutlineMenuFold />
                 </div>
             </div>
