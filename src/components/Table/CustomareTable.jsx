@@ -35,7 +35,7 @@ const CustomareTable = () => {
         <div className='theme_component mt-5 pt-5 w-full  '>
             <div className=" flex  flex-wrap gap-4 justify-between mx-5 py-4 ">
                 <div>
-                    <select value={status} onChange={handleStatus} name="" id="" className=" outline-none px-4 py-2 dark:bg-dark1 text-dark4 rounded " >
+                    <select value={status} onChange={handleStatus} name="" id="" className="bg-lite2 font-semibold text-black   outline-none px-4 py-2 dark:bg-dark1 dark:text-dark4 rounded " >
                         <option value="All">All</option>
                         <option value="Pending">Pending</option>
                         <option value="Complated">Complated</option>
