@@ -1,3 +1,4 @@
+import Status from "../Status/Status";
 
 const InfoCard = () => {
     return (
@@ -7,7 +8,7 @@ const InfoCard = () => {
 
             <div className=" flex justify-between mt-2">
                 <div className="flex items-center gap-2">
-                    <span className=" inline-block w-3 h-3 rounded-full bg-blue-700"></span>
+                    <Status status={'Complated'} />
                     <span className=" text-black  font-serif dark:text-lite3 ">Orders</span></div>
                 <div >
                     <span className="text-black font-serif dark:text-lite3 ">
@@ -17,8 +18,8 @@ const InfoCard = () => {
             </div>
             <div className=" flex justify-between ">
                 <div className="flex items-center gap-2">
-                    <span className=" inline-block w-3 h-3 rounded-full bg-red-700"></span>
-                    <span className=" text-black  font-serif dark:text-lite3 ">Returns</span></div>
+                    <Status status={'Canceled'} />
+                    <span className=" text-black  font-serif dark:text-lite3 ">Canceled</span></div>
                 <div >
                     <span className="text-black  font-serif dark:text-lite3 ">
                         $ 2121,21

@@ -69,7 +69,7 @@
     "time": "08:02:40",
     "items": 5,
     "price": 202,
-    "status": "Cancelled"
+    "status": "Canceled"
   },
   {
     "_id": "647c956d0be8fa2361606704",
@@ -93,7 +93,7 @@
     "time": "08:52:35",
     "items": 6,
     "price": 557,
-    "status": "Cancelled"
+    "status": "Canceled"
   },
   {
     "_id": "647c956d6efbc638c6482158",
@@ -105,7 +105,7 @@
     "time": "06:34:11",
     "items": 4,
     "price": 391,
-    "status": "Cancelled"
+    "status": "Canceled"
   },
   {
     "_id": "647c956d54130822195590be",
@@ -129,7 +129,7 @@
     "time": "10:25:30",
     "items": 3,
     "price": 510,
-    "status": "Cancelled"
+    "status": "Canceled"
   },
   {
     "_id": "647c956dbee6c90ad658b5a3",
@@ -153,7 +153,7 @@
     "time": "08:18:03",
     "items": 10,
     "price": 849,
-    "status": "Cancelled"
+    "status": "Canceled"
   },
   {
     "_id": "647c956d8f33b8791d100225",
@@ -165,7 +165,7 @@
     "time": "06:26:00",
     "items": 2,
     "price": 549,
-    "status": "Cancelled"
+    "status": "Canceled"
   },
   {
     "_id": "647c956d39e1ad55e9666022",
@@ -201,7 +201,7 @@
     "time": "09:33:03",
     "items": 5,
     "price": 265,
-    "status": "Cancelled"
+    "status": "Canceled"
   },
   {
     "_id": "647c956da7b95399749bbcdb",
@@ -249,7 +249,7 @@
     "time": "01:10:52",
     "items": 6,
     "price": 480,
-    "status": "Cancelled"
+    "status": "Canceled"
   },
   {
     "_id": "647c956d642ca6b10622c2a6",
@@ -297,7 +297,7 @@
     "time": "11:19:14",
     "items": 7,
     "price": 379,
-    "status": "Cancelled"
+    "status": "Canceled"
   },
   {
     "_id": "647c956d1f30f69abc65974d",
@@ -321,7 +321,7 @@
     "time": "06:34:45",
     "items": 7,
     "price": 657,
-    "status": "Cancelled"
+    "status": "Canceled"
   },
   {
     "_id": "647c956d0e2e3305bdf3fa50",
@@ -333,7 +333,7 @@
     "time": "01:32:26",
     "items": 3,
     "price": 851,
-    "status": "Cancelled"
+    "status": "Canceled"
   },
   {
     "_id": "647c956dac87e0b35cc896d3",
@@ -357,7 +357,7 @@
     "time": "06:11:20",
     "items": 8,
     "price": 963,
-    "status": "Cancelled"
+    "status": "Canceled"
   },
   {
     "_id": "647c956d4da650e55816115d",
@@ -381,7 +381,7 @@
     "time": "10:52:14",
     "items": 2,
     "price": 484,
-    "status": "Cancelled"
+    "status": "Canceled"
   },
   {
     "_id": "647c956dc9e80c5769e8cf5a",
@@ -405,7 +405,7 @@
     "time": "06:43:06",
     "items": 9,
     "price": 906,
-    "status": "Cancelled"
+    "status": "Canceled"
   },
   {
     "_id": "647c956d508683e071edf202",
@@ -417,7 +417,7 @@
     "time": "05:30:18",
     "items": 3,
     "price": 28,
-    "status": "Cancelled"
+    "status": "Canceled"
   },
   {
     "_id": "647c956d23352e8c8ac70722",
@@ -429,7 +429,7 @@
     "time": "11:54:41",
     "items": 10,
     "price": 44,
-    "status": "Cancelled"
+    "status": "Canceled"
   },
   {
     "_id": "647c956d333ada2b847e272b",
@@ -441,7 +441,7 @@
     "time": "06:28:11",
     "items": 6,
     "price": 302,
-    "status": "Cancelled"
+    "status": "Canceled"
   },
   {
     "_id": "647c956d4a6d1b483fcdfb21",
@@ -513,7 +513,7 @@
     "time": "12:48:06",
     "items": 2,
     "price": 587,
-    "status": "Cancelled"
+    "status": "Canceled"
   },
   {
     "_id": "647c956dde89cf3f0c98bc8d",
@@ -609,7 +609,7 @@
     "time": "01:41:58",
     "items": 2,
     "price": 17,
-    "status": "Cancelled"
+    "status": "Canceled"
   },
   {
     "_id": "647c956d9e7346cb6ffd0cec",
@@ -621,7 +621,7 @@
     "time": "06:30:58",
     "items": 3,
     "price": 37,
-    "status": "Cancelled"
+    "status": "Canceled"
   },
   {
     "_id": "647c956df88c471247a3b562",
@@ -717,7 +717,7 @@
     "time": "11:17:49",
     "items": 10,
     "price": 830,
-    "status": "Cancelled"
+    "status": "Canceled"
   },
   {
     "_id": "647c956d90dd989accc5d8a2",
@@ -741,7 +741,7 @@
     "time": "12:41:44",
     "items": 6,
     "price": 674,
-    "status": "Cancelled"
+    "status": "Canceled"
   },
   {
     "_id": "647c956d0b3533fcee62be15",
@@ -753,7 +753,7 @@
     "time": "02:44:20",
     "items": 6,
     "price": 752,
-    "status": "Cancelled"
+    "status": "Canceled"
   },
   {
     "_id": "647c956dc8c87e71e47396e9",
@@ -765,7 +765,7 @@
     "time": "05:30:45",
     "items": 8,
     "price": 184,
-    "status": "Cancelled"
+    "status": "Canceled"
   },
   {
     "_id": "647c956d3437899ca7b75277",
